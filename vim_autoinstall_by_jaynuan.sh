@@ -17,8 +17,9 @@ do
 	fi
 done
 
+mkdir ~/.vim/colors
 git clone https://github.com/JayNuan/vim_autoinstall
-git clone https://github.com/VJayNuan/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/JayNuan/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 git_sucess_or_not=$(echo $?)
 if [[ $git_sucess_or_not -ne 0 ]]
@@ -26,7 +27,6 @@ then
 	exit 1
 fi
 
-mkdir ~/.vim/colors
 cp -a vim_autoinstall/solarized.vim ~/.vim/colors
 cp -a vim_autoinstall/.vimrc ~/.vimrc
 
