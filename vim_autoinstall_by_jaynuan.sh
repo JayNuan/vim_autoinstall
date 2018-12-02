@@ -27,8 +27,8 @@ then
 	exit 1
 fi
 
-cp -a vim_autoinstall/solarized.vim ~/.vim/colors
-cp -a vim_autoinstall/.vimrc ~/.vimrc
+cp -a vim_autoinstall/solarized.vim ~/.vim/colors || cp -a solarized.vim ~/.vim/colors
+cp -a vim_autoinstall/.vimrc ~/.vimrc || cp -a solarized.vim ~/.vimrc
 
 vim +PluginUpdate +qall
 vim +PlauginList
