@@ -35,7 +35,7 @@
 		更新插件  
 		更新全部插件    
 			:PluginUpdate  
-	在shell命令行使用  
+	在shell命令行使用 
 		1.执行完命令立即退出(以install为例)：  
 			[root@localhost]# vim +PluginInstall +qall  
 		2.执行完毕停留在vim界面(以update为例)  
