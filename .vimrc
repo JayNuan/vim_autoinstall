@@ -13,7 +13,7 @@ autocmd BufNewFile *.py,*.sh,exec :call SetTitle()
 let $author_name = "linuan"
 let $author_email = "li-nuan@qq.com"
 let g:NERDTreeNodeDelimiter = 'x'
-let g:pydiction_location = '/root/.vim/bundle/Pydiction/complete-dict'
+let g:pydiction_location = '~/.vim/bundle/Pydiction/complete-dict'
 let g:pydiction_menu_height = 3
 
 
