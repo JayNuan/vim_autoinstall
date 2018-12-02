@@ -18,7 +18,7 @@ do
 done
 
 mkdir -p ~/.vim/colors  >> ./vim_autoinstall.log
-git clone https://github.com/JayNuan/vim_autoinstall
+#git clone https://github.com/JayNuan/vim_autoinstall
 git clone https://github.com/JayNuan/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 git_sucess_or_not=$(echo $?)
