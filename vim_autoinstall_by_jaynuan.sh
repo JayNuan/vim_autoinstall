@@ -31,4 +31,4 @@ cp -a vim_autoinstall/solarized.vim ~/.vim/colors || cp -a solarized.vim ~/.vim/
 cp -a vim_autoinstall/.vimrc ~/.vimrc || cp -a solarized.vim ~/.vimrc
 
 vim +PluginUpdate +qall
-vim +PlauginList
+vim +PluginList
