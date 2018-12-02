@@ -3,7 +3,7 @@
 
 1. 安装软件： git
 2. 使用git下载：
-   命令： git clone https://github.com/JayNuan/vim_autoinstall
+   命令： git clone https://github.com/JayNuan/vim_autoinstall  
    
 3. 安装的插件有：
    nerdtree： 文件树插件
@@ -11,12 +11,12 @@
    taglist：  标签跳转插件
    
   4. vimrc文件添加模块说明：
-   从Github进行安装：
-        Plugin 'user/plugin'
-    从http://vim-scripts.org/vim/scripts.html进行安装：
-        Plugin 'plugin_name'
-    从另一个git软件库进行安装：
-        Plugin 'git://git.another_repo.com/plugin'
+   从Github进行安装：  
+        Plugin 'user/plugin'  
+    从http://vim-scripts.org/vim/scripts.html进行安装：  
+        Plugin 'plugin_name'  
+    从另一个git软件库进行安装：  
+        Plugin 'git://git.another_repo.com/plugin'  
     从本地文件进行安装：
         Plugin 'file:///home/user/path/to/plugin'
         
