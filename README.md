@@ -20,24 +20,24 @@
     从本地文件进行安装：
         Plugin 'file:///home/user/path/to/plugin'
         
-     5.Vundle用法：  
-       在vim内部使用：  
-         安装一个新的插件  
-             PluginInstall命令会安装在你的.vimrc文件中列出来的所有插件。你还可以只安装某一个特定的插件，只要传递其名称。  
-                    :PluginInstall   
-                    :PluginInstall <plugin-name>  
-            清理闲置未用的插件  
-               如果你有任何闲置未用的插件，只要使用PluginClean命令，就可以清理它。  
-                    :PluginClean  
-              搜索插件  
-                 如果你想从所提供的插件列表安装一个插件，搜索功能就很有用。  
-                      :PluginSearch <text-list>  
-               更新插件  
-                   更新全部插件    
-                       :PluginUpdate  
-             在shell命令行使用  
-          1.执行完命令立即退出(以install为例)：  
-                 [root@localhost]# vim +PluginInstall +qall  
-            2.执行完毕停留在vim界面(以update为例)  
-                   [root@localhost]# vim +PluginUpate  
+5.Vundle用法：  
+	在vim内部使用：  
+		安装一个新的插件  
+		PluginInstall命令会安装在你的.vimrc文件中列出来的所有插件。你还可以只安装某一个特定的插件，只要传递其名称。  
+			:PluginInstall   
+			:PluginInstall <plugin-name>  
+		清理闲置未用的插件  
+		如果你有任何闲置未用的插件，只要使用PluginClean命令，就可以清理它。  
+			:PluginClean  
+		搜索插件 
+		如果你想从所提供的插件列表安装一个插件，搜索功能就很有用。  
+			:PluginSearch <text-list>  
+		更新插件  
+		更新全部插件    
+			:PluginUpdate  
+	在shell命令行使用  
+		1.执行完命令立即退出(以install为例)：  
+			[root@localhost]# vim +PluginInstall +qall  
+		2.执行完毕停留在vim界面(以update为例)  
+			[root@localhost]# vim +PluginUpate  
       
