@@ -1,5 +1,10 @@
 # vim_autoinstall  
 使用简介  
+功能：
+1.使用shell或者python可以自动补齐文件的介绍信息
+2.界面优化调整，主题，缩进等
+3.在命令模式启用了鼠标功能
+4.安装了python插件
 
 1. 安装软件： git  
 2. 使用git下载：  
@@ -8,7 +13,10 @@
 3. 安装的插件有：  
    nerdtree： 文件树插件,按F2可以快速打开  
    Pydiction： python自动补齐插件  
-   taglist：  标签跳转插件  
+   taglist：  标签跳转插件 
+   tagbar： 程序函数显示
+   ctrlp.vim：  全文搜索功能
+   indentLine： 缩进特别显示
    
   4. vimrc文件添加模块说明：
    从Github进行安装：  
