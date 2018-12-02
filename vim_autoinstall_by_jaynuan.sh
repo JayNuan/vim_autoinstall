@@ -17,7 +17,7 @@ do
 	fi
 done
 
-mkdir ~/.vim/colors
+mkdir -p ~/.vim/colors  >> ./vim_autoinstall.log
 git clone https://github.com/JayNuan/vim_autoinstall
 git clone https://github.com/JayNuan/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
