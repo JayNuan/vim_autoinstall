@@ -16,9 +16,6 @@ let g:NERDTreeNodeDelimiter = 'x'
 let g:pydiction_location = '/root/.vim/bundle/Pydiction/complete-dict'
 let g:pydiction_menu_height = 3
 
-let g:SuperTabMappingForward = "<tab>"
-let g:SuperTabMappingBackward= "s-tab"
-
 
 function SetTitle()
 	let filetype_name = strpart(expand("%"), stridx(expand("%"), "."))
@@ -56,7 +53,6 @@ call vundle#begin()
 
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'JayNuan/supertab'
 Plugin 'JayNuan/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'JayNuan/nerdtree'
