@@ -33,14 +33,14 @@ if filetype_name == '.sh'
     call append(line(".")+5,"#!/bin/bash")
     call append(line(".")+6,"")
 elseif filetype_name == '.py' 
-	         call setline(1,"\######################################################")
-	         call append(line("."),"\# File Name: ".expand("%"))
-	         call append(line(".")+1,"\# Author: ".$author_name)
-	         call append(line(".")+2,"\# Mail: ".$author_email)
-	         call append(line(".")+3,"\# Create Time: ".strftime("%c"))
-	         call append(line(".")+4,"\#===================================================")
-	         call append(line(".")+5,"#!/usr/bin/python")
-	         call append(line(".")+6,"")
+	call setline(1,"\######################################################")
+	call append(line("."),"\# File Name: ".expand("%"))
+	call append(line(".")+1,"\# Author: ".$author_name)
+	call append(line(".")+2,"\# Mail: ".$author_email)
+	call append(line(".")+3,"\# Create Time: ".strftime("%c"))
+	call append(line(".")+4,"\#===================================================")
+	call append(line(".")+5,"#!/usr/bin/python")
+	call append(line(".")+6,"")
 endif
 autocmd BufNewFile * normal G
 endfunc
