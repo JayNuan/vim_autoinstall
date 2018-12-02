@@ -6,7 +6,7 @@
 #===================================================
 #!/bin/bash
 
-command_arr=(vim git)
+command_arr=(vim git ctags)
 for var in ${command_arr[@]}
 do
 	which $var  >> ./vim_autoinstall.log
@@ -18,9 +18,7 @@ do
 done
 
 #git clone https://github.com/JayNuan/vim_autoinstall
-
-
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/JayNuan/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git_sucess_or_not=$(echo $?)
 if [[ $git_sucess_or_not -ne 0 ]]
 then
