@@ -18,14 +18,14 @@ do
 done
 
 #git clone https://github.com/JayNuan/vim_autoinstall
+
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git_sucess_or_not=$(echo $?)
-if [[ $git_sucess_
-or_not -nq 0 ]]
+if [[ $git_sucess_or_not -ne 0 ]]
 then
 	exit 1
 fi
-
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp -a vim_autoinstall/.vimrc ~/.vimrc
 
 vim +PluginUpdate +qall
