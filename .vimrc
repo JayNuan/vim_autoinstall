@@ -73,9 +73,9 @@ if filetype_name == '.sh'
     call append(line(".")+5,"#!/bin/bash")
     call append(line(".")+6,"")
 elseif filetype_name == '.py' 
-	call setline(1,"\######################################################")
+	call setline(1,"\# _*_ coding:UTF-8 _*_")  
+	call append(line(".")+1,"\####################################################")    
 	call append(line("."),"\# File Name: ".expand("%"))
-	call append(line(".")+1,"\# _*_ coding:UTF-8 _*_")  
 	call append(line(".")+2,"\# Author: ".$author_name)
 	call append(line(".")+3,"\# Mail: ".$author_email)
 	call append(line(".")+4,"\# Create Time: ".strftime("%c"))
